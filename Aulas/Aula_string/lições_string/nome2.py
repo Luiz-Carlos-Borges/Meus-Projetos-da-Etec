@@ -1,0 +1,7 @@
+nome=str(input("Digite seu nome completo-->"))
+v1=nome.count("a")
+v2=nome.find("a")
+v3=nome.strip("a")
+print(v1)
+print(v2)   
+print(v3)   
