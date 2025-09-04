@@ -1,3 +1,3 @@
-silva=str(input("Digite seu nome completo-->"))
-v1=silva.lower().find("silva")
-print(v1)
+nome = input("Digite seu nome completo-->").lower()
+tem_silva = "silva" in nome #verifica se tem silva no nome digitado
+print(tem_silva)
