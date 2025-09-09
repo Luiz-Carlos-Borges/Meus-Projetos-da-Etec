@@ -6,10 +6,10 @@ kc=float(input("Qual o KM de chegada?"))
 hs=float(input("Quando você saiu?"))
 hc=float(input("Quando você chegou?"))
 
-media=ks-kc/hs-hc
+media=(ks-kc)/(hs-hc)
 
 if media<80:
-print("multa de 5 reais para você amigo")
+    print("multa de 5 reais para você amigo", float(80-media)*5)
 
 else:
-print("continue na linha")
+    print("continue na linha")
