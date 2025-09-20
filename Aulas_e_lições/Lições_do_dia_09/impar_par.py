@@ -15,7 +15,7 @@ if total % 2 == 0: #verifica se o numero é par
         print("Você perdeu")
 else:
     print("Você jogou", num, "e o computador", computador,".", total, "deu impar")
-    if escolha == 'i': #verifica se o usuario escolheu impar 
+    if escolha == 'i': #verifica se o usuario escolheu impar  
         print("Você ganhou")
     else:
         print("Você perdeu")
