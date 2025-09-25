@@ -3,6 +3,9 @@ import random
 os.system('cls')
 
 print('precesso seletivo para subistituir a thais Carla')
-Thais_Carla=148
-pesos=[]
-pessoa1=int(input('Digite seu peso'))
+thais=148
+print('Primeiro candidato: peso-->', random.randrange(60,250),'KG')
+print('Segundo candidato: peso-->', random.randrange(60,250),'KG')
+print('Terceiro candidato: peso-->', random.randrange(60,250),'KG')
+print('Quarto candidato: peso-->', random.randrange(60,250),'KG')
+print('Quinto candidato: peso-->', random.randrange(60,250),'KG')
