@@ -22,3 +22,4 @@ if aprovados:
     print('O candidato', vencedor[0], 'ficou em primeiro lugar com', vencedor[1] , 'Kg') # imprime o vencedor
 else:
     print('Nenhum candidato foi aprovado')
+    
