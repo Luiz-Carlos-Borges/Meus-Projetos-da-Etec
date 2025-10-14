@@ -1,12 +1,14 @@
 import os
 os.system('cls')
 
+print('\n!separador de números!\n')
+
 numeros = [] # lista para armazenar todos os números
 pares = [] # lista para armazenar os números pares
 impares = [] # lista para armazenar os números ímpares
 
 while True: # loop infinito, só para quando o usuário digitar -1
-    n = int(input("Digite um número (ou -1 para parar): ")) # lê um número do usuário
+    n = int(input("Digite um número (ou -1 para parar)--> ")) # lê um número do usuário
     if n == -1: # se o número for -1, sai do loop
         break  
     numeros.append(n) # adiciona o número à lista completa
