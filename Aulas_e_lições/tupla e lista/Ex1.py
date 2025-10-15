@@ -1,7 +1,8 @@
 import os
 os.system('cls')
 
-print('\n!separador de números!\n')
+print('!separador de números inteiros!', end='')
+print('\nOBS: não adicionar números negativos!\n')
 
 numeros = [] # lista para armazenar todos os números
 pares = [] # lista para armazenar os números pares
@@ -19,4 +20,4 @@ while True: # loop infinito, só para quando o usuário digitar -1
 
 print("Lista completa:", numeros) # imprime a lista completa
 print("Lista de pares:", pares) # imprime a lista de pares
-print("Lista de ímpares:", impares) # imprime a lista de ímpares  
+print("Lista de ímpares:", impares) # imprime a lista de ímpares  12
