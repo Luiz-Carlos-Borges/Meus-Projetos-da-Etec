@@ -7,14 +7,15 @@ totalmaior=totalmenor=0
 
 for c in range(0,6):
     dados.append(str(input('Nome-->'.upper().strip())))
-    dados.append(str(input('Idade-->'.strip())))
-    turma2.append(dados[:])
-    dados.clear()
-    print(turma2)
+dados.append(str(input('Idade-->'.strip())))
+turma2.append(dados[:])
+dados.clear()
+print(turma2)
 
-for p in turma2:
-    if p[1] >=18:
-        print(f'{p[0]} é maior de idade, ele tem {p[1]} anos de idade')
+while True:
+    for p in turma2:
+        if p[1] >=18:
+            print(f'{p[0]} é maior de idade, ele tem {p[1]} anos de idade')
         totalmaior +=1
     else:
         print(f'{p[0]} é menor de idade, ele tem {p[1]} anos de idade')
