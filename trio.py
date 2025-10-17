@@ -8,18 +8,30 @@ impares = []
 print('Seja Bem-vindo!')
 print('\nVamos digitar seu cadastro')
 
-while len(numeros) < 7:  # O loop continuará enquanto houver menos de 7 números cadastrados
-    try:
-        n = int(input("Digite cada número do seu cadastro --> "))
-        numeros.append(n)
+while True:
+    # Entrada dos números
+    p = int(input('Digite o primeiro número do seu cadastro: '))
+    s = int(input('Digite o segundo número do seu cadastro: '))
+    t = int(input('Digite o terceiro número do seu cadastro: '))
+    q = int(input('Digite o quarto número do seu cadastro: '))
+    qi = int(input('Digite o quinto número do seu cadastro: '))
+    sex = int(input('Digite o sexto número do seu cadastro: '))
+    sete = int(input('Digite o sétimo número do seu cadastro: '))
+
+    # Adiciona os números à lista principal
+    numeros.extend([p, s, t, q, qi, sex, sete])
+
+    # Classifica os números em pares e ímpares
+    for n in [p, s, t, q, qi, sex, sete]:
         if n % 2 == 0:
             pares.append(n)
         else:
             impares.append(n)
-    except ValueError:
-        print("Erro: Entrada inválida. Digite um número inteiro.")
 
-print("Cadastro completo!")
-print("Lista completa:", numeros)
-print("Lista de pares:", pares)
-print("Lista de ímpares:", impares)
+    # Exibe os resultados
+    print("\nMatrícula completa:", numeros)
+    print("Números pares:", pares)
+    print("Números ímpares:", impares)
+
+    # Encerra o loop após o cadastro
+    break
