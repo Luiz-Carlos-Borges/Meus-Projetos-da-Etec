@@ -1,4 +1,5 @@
 import os
+import time
 os.system('cls')
 
 user = 'professor'
@@ -13,9 +14,13 @@ while contador == "s":
     senha_novo = input("Qual a sua senha?: ")
 
     if user_novo == user and senha_novo == senha:
-        
-        break  
-    else:
+
+        for c in range(0,100, 5):
+            time.sleep(0.5)
+            print('Carregando o sistema...',c,'%', end='\r', flush=True)
+    print('bem vindo ao sistema!')
+    break  
+else:
         print("=" * 100)
         print("Usuário ou senha incorretos.")
         print("=" * 100)
@@ -24,7 +29,8 @@ while contador == "s":
         print("=" * 100)
         print("Trabalho feito por:\n \nGustavo: encerramento \nVinicius: login \nLuiz: código\n")
         print("=" * 100)
-        
+
+      
 
 numeros = []
 pares = []
