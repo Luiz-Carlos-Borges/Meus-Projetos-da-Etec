@@ -15,8 +15,8 @@ while contador == "s":
 
     if user_novo == user and senha_novo == senha:
 
-        for c in range(0,100, 5):
-            time.sleep(0.5)
+        for c in range(0,101, 5):
+            time.sleep(0.1)
             print('Carregando o sistema...',c,'%', end='\r', flush=True)
     print('bem vindo ao sistema!')
     break  
