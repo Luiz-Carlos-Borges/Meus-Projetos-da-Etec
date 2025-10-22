@@ -6,6 +6,6 @@ Brasil.append(Estado)#Adiciona a lista no dicionario
 Brasil.append(Estado2)
 
 print(Brasil)
-print(Brasil[0])
+print(Brasil[0])#mostra a priemira
 print(Brasil[1])
-print(f'{Brasil[0]} {Brasil['UF']}')
+print(Brasil[0]['UF'])
