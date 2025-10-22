@@ -55,7 +55,7 @@ while tentativa == "s":
         contador = input("\nTentar novamente? (s/n): (nota: Digitar algo além de 's' acarretará no fim do programa.): ").lower()
         print("Obrigado por usar nosso programa.")
         print("=" * 100)
-        print("Trabalho feito por:\n \nGustavo: encerramento \nVinicius: login \nLuiz: código\n")
+        print("Trabalho feito por:\n \nGustavo Santos Valim: encerramento \nVinicius de Paula Beckert: login \nLuiz Carlos Borges D'Amico: código\n")
         print("=" * 100)
     
 
